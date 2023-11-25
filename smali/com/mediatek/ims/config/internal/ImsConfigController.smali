@@ -584,9 +584,6 @@
     .locals 0
     .param p0, "x0"    # Lcom/mediatek/ims/config/internal/ImsConfigController;
 
-    .line 37
-    invoke-direct {p0}, Lcom/mediatek/ims/config/internal/ImsConfigController;->syncWfcMDN()V
-
     return-void
 .end method
 
