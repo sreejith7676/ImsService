@@ -58,6 +58,8 @@
     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:directBootAware="true" android:extractNativeLibs="false" android:label="ImsApp" android:name="com.mediatek.ims.ImsApp" android:usesNonSdkApi="true">
         <uses-library android:name="com.mediatek.ims.oemplugin" android:required="false"/>
         <uses-library android:name="com.mediatek.ims.plugin" android:required="false"/>
+        <uses-library android:name="mediatek-ims-base" android:required="true"/>
+        <uses-library android:name="mediatek-ims-oem-plugin" android:required="true"/>
         <receiver android:exported="true" android:name="com.mediatek.ims.MotoDialerReceiver" android:permission="android.permission.READ_PRIVILEGED_PHONE_STATE">
             <intent-filter>
                 <action android:name="com.motorola.internal.intent.action.USER_OPEN_MISSED_CALL"/>
