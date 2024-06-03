@@ -342,49 +342,14 @@
     add-int/lit8 v1, v1, -0x1
 
     .line 360
-    new-instance v2, Lcom/motorola/android/telephony/MotoExtTelephonyManager;
+    new-instance v2, Landroid/telephony/TelephonyManager;
 
     iget-object v3, p0, Lcom/mediatek/ims/ril/ImsRadioIndication;->mRil:Lcom/mediatek/ims/ril/ImsRILAdapter;
 
     iget-object v3, v3, Lcom/mediatek/ims/ril/ImsRILAdapter;->mContext:Landroid/content/Context;
 
-    invoke-direct {v2, v3}, Lcom/motorola/android/telephony/MotoExtTelephonyManager;-><init>(Landroid/content/Context;)V
-
-    .line 361
-    .local v2, "motoExtTM":Lcom/motorola/android/telephony/MotoExtTelephonyManager;
-    if-gtz v1, :cond_2
-
-    iget v3, p0, Lcom/mediatek/ims/ril/ImsRadioIndication;->mPhoneId:I
-
-    invoke-virtual {v2, v3}, Lcom/motorola/android/telephony/MotoExtTelephonyManager;->getAndResetInTestEmergencyCall(I)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_2
-
-    .line 362
-    iget-object v3, p0, Lcom/mediatek/ims/ril/ImsRadioIndication;->mRil:Lcom/mediatek/ims/ril/ImsRILAdapter;
-
-    iget-object v3, v3, Lcom/mediatek/ims/ril/ImsRILAdapter;->mEnterECBMRegistrants:Landroid/os/RegistrantList;
-
-    if-eqz v3, :cond_2
-
-    .line 363
-    iget-object v3, p0, Lcom/mediatek/ims/ril/ImsRadioIndication;->mRil:Lcom/mediatek/ims/ril/ImsRILAdapter;
-
-    const-string v4, "callInfoIndication: call ended, testing emergency call, notify ECM Registrants"
-
-    invoke-virtual {v3, v4}, Lcom/mediatek/ims/ril/ImsRILAdapter;->riljLog(Ljava/lang/String;)V
-
-    .line 365
-    iget-object v3, p0, Lcom/mediatek/ims/ril/ImsRadioIndication;->mRil:Lcom/mediatek/ims/ril/ImsRILAdapter;
-
-    iget-object v3, v3, Lcom/mediatek/ims/ril/ImsRILAdapter;->mEnterECBMRegistrants:Landroid/os/RegistrantList;
-
-    invoke-virtual {v3}, Landroid/os/RegistrantList;->notifyRegistrants()V
-
     .line 370
-    .end local v2    # "motoExtTM":Lcom/motorola/android/telephony/MotoExtTelephonyManager;
+    .end local v2    # "motoExtTM":Landroid/telephony/TelephonyManager;
     :cond_2
     return-void
 
