@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Landroid/telephony/PhoneStateListener;-><init>(Ljava/lang/Integer;)V
+    invoke-direct {p0}, Landroid/telephony/PhoneStateListener;-><init>()V
 
     .line 43
     new-instance v0, Ljava/lang/StringBuffer;
