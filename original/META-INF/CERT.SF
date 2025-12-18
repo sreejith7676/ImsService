@@ -1,0 +1,113 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA-256-Digest-Manifest: N1MDAMVXf8n/yooapp1Rzy6v0PfzD/3uB+ykciIkV8c=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: KcVx6Kp6cANZmxDu6UhR4PKQAANQcy2ZV5V0HZhLjJA=
+
+Name: classes.dex
+SHA-256-Digest: yNXTFJa1VLWOHev7DmXDZdonAJaV5p8AYwegkwe2zgk=
+
+Name: kotlin/annotation/annotation.kotlin_builtins
+SHA-256-Digest: 2kZfon1lRo0UGgaGv88sZi7sEP+awuzOStpYx9cLGdc=
+
+Name: kotlin/collections/collections.kotlin_builtins
+SHA-256-Digest: Q7jZRv9+2qLROmcpCDWJWzGOsq/s4QM2TNcA5RrXm70=
+
+Name: kotlin/coroutines/coroutines.kotlin_builtins
+SHA-256-Digest: QETf+Rc+3vjnIqvzEpc9ejAXaloigQfzV2j4bU5faEU=
+
+Name: kotlin/internal/internal.kotlin_builtins
+SHA-256-Digest: qWjFefItkz/FFM0931o0I9QAMQd6m7pJzUdFC+5vViU=
+
+Name: kotlin/kotlin.kotlin_builtins
+SHA-256-Digest: jq+Cp9r8GHgCs5jvmcrsrcZDU639lI4ZRN9bpAOMxo0=
+
+Name: kotlin/ranges/ranges.kotlin_builtins
+SHA-256-Digest: KDzPM85rTJuZrdvjX2U3vffq1QfFUD3S94S3cf+vdyQ=
+
+Name: kotlin/reflect/reflect.kotlin_builtins
+SHA-256-Digest: MJNpNIOfRP4TK3pYh6PfrK0R9sLL3YH7RGnTN9Q8ASs=
+
+Name: res/drawable-anydpi-v21/ic_call_answer.xml
+SHA-256-Digest: T3jBUS0TCDS/qpOMLlHTfdmCZuvkuMluNMAjtYLGaz4=
+
+Name: res/drawable-anydpi-v21/ic_call_answer_low.xml
+SHA-256-Digest: pEiaAISj0ww5YxjGtLiFFV6uQtICeYa+dy3TQivhokA=
+
+Name: res/drawable-anydpi-v21/ic_call_answer_video.xml
+SHA-256-Digest: dCEoVwV6LTiWTc4ALYZn02SnMXi2wdIGcS9xk0ZIzHI=
+
+Name: res/drawable-anydpi-v21/ic_call_answer_video_low.xml
+SHA-256-Digest: UlWZKWXFoDECybFgiO+cyv8lrYykLnkaaRTLdXprIHU=
+
+Name: res/drawable-anydpi-v21/ic_call_decline.xml
+SHA-256-Digest: clhNtJY5wVMexskln5VkH73ZDfeVTSnG8jRoANTm1B4=
+
+Name: res/drawable-anydpi-v21/ic_call_decline_low.xml
+SHA-256-Digest: hw4cdhKOssdNTjNoOVKEre87Nb7smBRqpHljA6FjUQQ=
+
+Name: res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png
+SHA-256-Digest: k+Z54hG1Z0A7uoAwid843JI7xEkTVaJC0NHLqtdzbeo=
+
+Name: res/drawable-v21/notification_action_background.xml
+SHA-256-Digest: LgzfvF3pJbt0B8/gQNktEUstPB/tXj8qcSfGw+vZ12E=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+SHA-256-Digest: uXY6G0jRm/22W3PCh/Bn1QB8m4GwiK1QCuoTeveblDQ=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+SHA-256-Digest: f/QdP0Grwhn/DYrOcK8L48iPdr49tI6JUbIsde2OQaY=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal.9.png
+SHA-256-Digest: UcrXW2ElY1qt5dfTsuSlaRj5YzoOKQ6qQH5GeDt/B8E=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+SHA-256-Digest: ukgIe6XxA8BIeBpiCpKscdVufr7N3/HFli1R1e0BBDs=
+
+Name: res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+SHA-256-Digest: D1Xpcp0eT5Aq/BN3oXeFvyGZiAwa+YOLYva+w2YhSQs=
+
+Name: res/drawable/notification_bg.xml
+SHA-256-Digest: 4u1cdl53yvjjxXPNcEus4wxug7VWbSuHIjcKZmckV3o=
+
+Name: res/drawable/notification_bg_low.xml
+SHA-256-Digest: 9MrEyc+Kwbh75SY1AJR79CJpcMht1nop5/zoyWO9iLI=
+
+Name: res/drawable/notification_icon_background.xml
+SHA-256-Digest: LcSyGPxMx6y7kUTc6+hBCe/ffuoeTBLCZ2wg2VQNPhg=
+
+Name: res/drawable/notification_tile_bg.xml
+SHA-256-Digest: /owCLsMBaucZ9jOdbonDCqNVCsyx+unVNiWUawxqxdk=
+
+Name: res/layout-v21/notification_action.xml
+SHA-256-Digest: 37Q399sGtxFHIwdlDMjLfOnaTExNUlGwibGNUZrVo7g=
+
+Name: res/layout-v21/notification_action_tombstone.xml
+SHA-256-Digest: nI6MPvgKsdjBlzw8p7WvavbGEH1jVrYLvBsUCsCz3UA=
+
+Name: res/layout-v21/notification_template_custom_big.xml
+SHA-256-Digest: RE17uMQEhiiUZM1oxQinir9cU2zSt9PmR0LLY1JgoKE=
+
+Name: res/layout-v21/notification_template_icon_group.xml
+SHA-256-Digest: YORNf6FJn60RzcalKxHTDtRXAdV5TSPm2u+6TwkN6J0=
+
+Name: res/layout/custom_dialog.xml
+SHA-256-Digest: +tBvChHgZ1NQlt1z8lFm55quJ/24BMpOQ5k9FVPATm0=
+
+Name: res/layout/ime_base_split_test_activity.xml
+SHA-256-Digest: Rt+7BGHzI0Q0hXQVW4+EMqJT4ZplycSpNl9KcUJg680=
+
+Name: res/layout/ime_secondary_split_test_activity.xml
+SHA-256-Digest: X4M8nuBI6AJE0qqXIBbiWHRRH1dV1nvdYB/n6OPSc7I=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA-256-Digest: F3FD6hWJ4CnfNfIUGZQd/MsUyuyZfCzXscBzUgzIvKw=
+
+Name: res/layout/notification_template_part_time.xml
+SHA-256-Digest: BJe1bP7tzvNtYfrUAV3M8D5g7YXoF/De2vi7aIW193g=
+
+Name: resources.arsc
+SHA-256-Digest: /r4WNFb9DNsB3L1UJpxnnkaU5w1FlDo9w5EPcxvMKaw=
+
