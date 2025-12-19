@@ -1051,27 +1051,6 @@
 
     invoke-virtual {v3}, Landroid/os/Message;->sendToTarget()V
 
-    .line 704
-    iget-object v3, p0, Lcom/mediatek/ims/ril/ImsRILAdapter$RilHandler;->this$0:Lcom/mediatek/ims/ril/ImsRILAdapter;
-
-    invoke-static {v3}, Lcom/mediatek/ims/ril/ImsRILAdapter;->access$300(Lcom/mediatek/ims/ril/ImsRILAdapter;)Lcom/android/internal/telephony/metrics/TelephonyMetrics;
-
-    move-result-object v3
-
-    iget-object v4, p0, Lcom/mediatek/ims/ril/ImsRILAdapter$RilHandler;->this$0:Lcom/mediatek/ims/ril/ImsRILAdapter;
-
-    iget-object v4, v4, Lcom/mediatek/ims/ril/ImsRILAdapter;->mPhoneId:Ljava/lang/Integer;
-
-    invoke-virtual {v4}, Ljava/lang/Integer;->intValue()I
-
-    move-result v4
-
-    iget v5, v1, Lcom/mediatek/ims/ril/RILRequest;->mSerial:I
-
-    iget v6, v1, Lcom/mediatek/ims/ril/RILRequest;->mRequest:I
-
-    invoke-virtual {v3, v4, v5, v6}, Lcom/android/internal/telephony/metrics/TelephonyMetrics;->writeOnRilTimeoutResponse(III)V
-
     .line 707
     .end local v2    # "timeoutResponse":Ljava/lang/Object;
     :cond_6
@@ -1293,8 +1272,6 @@
     :cond_8
     :goto_2
     return-void
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x2
